@@ -13,12 +13,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link map_fragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class map_fragment extends Fragment implements OnMapReadyCallback{
     private GoogleMap mMap;
     // TODO: Rename parameter arguments, choose names that match
@@ -35,14 +29,6 @@ public class map_fragment extends Fragment implements OnMapReadyCallback{
 
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment map_fragment.
-     */
     // TODO: Rename and change types and number of parameters
     public static map_fragment newInstance(String param1, String param2) {
         map_fragment fragment = new map_fragment();
@@ -56,6 +42,8 @@ public class map_fragment extends Fragment implements OnMapReadyCallback{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+  //      SupportMapFragment mapFragment = (SupportMapFragment) getFragmentManager().findFragmentById(R.id.map);
+//        mapFragment.getMapAsync(this);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -68,6 +56,7 @@ public class map_fragment extends Fragment implements OnMapReadyCallback{
         // Inflate the layout for this fragment
         return (ViewGroup)inflater.inflate(R.layout.fragment_map_fragment, container, false);
     }
+
     @Override
     public void onMapReady(final GoogleMap googleMap) {//지도에 마커
 

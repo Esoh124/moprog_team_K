@@ -21,4 +21,9 @@
         android:icon="@drawable/download"
         android:title="진행중인 약속" />
 
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/download"
+        android:title="내 정보" />
+
 </menu>

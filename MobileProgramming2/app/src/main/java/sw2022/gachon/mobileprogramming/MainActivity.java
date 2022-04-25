@@ -26,14 +26,13 @@ public class MainActivity extends AppCompatActivity{
     private friend_fragment fragmentFriend = new friend_fragment();
     private map_fragment fragmentMap = new map_fragment();
     private promise_fragment fragmentPromise = new promise_fragment();
+    private info_fragment fragmentInfo = new info_fragment();
     private meeting fragmentMeeting = new meeting();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-        //mapFragment.getMapAsync(this);
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.main_frameLayout, fragmentMap).commitAllowingStateLoss();
 
@@ -58,25 +57,13 @@ public class MainActivity extends AppCompatActivity{
                 case R.id.menu_promise:
                     transaction.replace(R.id.main_frameLayout, fragmentPromise).commitAllowingStateLoss();
                     break;
-
+                case R.id.menu_info:
+                    transaction.replace(R.id.main_frameLayout, fragmentInfo).commitAllowingStateLoss();
+                    break;
             }
             return true;
         }
     }
-    /**@Override
-    public void onMapReady(final GoogleMap googleMap) {//지도에 마커
-
-        mMap = googleMap;
-
-        LatLng SEOUL = new LatLng(37.56, 126.97);
-
-        MarkerOptions markerOptions = new MarkerOptions();
-        markerOptions.position(SEOUL);
-        markerOptions.title("서울");
-        markerOptions.snippet("한국의 수도");
-        mMap.addMarker(markerOptions);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(SEOUL, 10));
-    }**/
 
 
 }
