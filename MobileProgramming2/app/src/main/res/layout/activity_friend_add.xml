@@ -61,5 +61,6 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="친구 추가"
+       android:id="@+id/add_newfriend"
        android:layout_gravity="bottom"/>
 </LinearLayout>
