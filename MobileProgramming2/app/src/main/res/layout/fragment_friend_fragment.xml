@@ -32,7 +32,7 @@
                 <ImageView
                     android:layout_width="300px"
                     android:layout_height="300px"
-                    android:src ="@drawable/download"/>
+                    android:src ="@drawable/person"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             <ImageView
                 android:layout_width="300px"
                 android:layout_height="300px"
-                android:src ="@drawable/download"/>
+                android:src ="@drawable/person"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
             <ImageView
                 android:layout_width="300px"
                 android:layout_height="300px"
-                android:src ="@drawable/download"/>
+                android:src ="@drawable/person"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
             <ImageView
                 android:layout_width="300px"
                 android:layout_height="300px"
-                android:src ="@drawable/download"/>
+                android:src ="@drawable/person"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
