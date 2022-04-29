@@ -4,26 +4,26 @@
 
     <item
         android:id="@+id/menu_mainmap"
-        android:icon="@drawable/download"
+        android:icon="@drawable/map"
         android:title="메인 지도" />
     <item
         android:id="@+id/menu_promise"
-        android:icon="@drawable/download"
+        android:icon="@drawable/box"
         android:title="약속 담기" />
 
     <item
         android:id="@+id/menu_friend"
-        android:icon="@drawable/download"
+        android:icon="@drawable/person"
         android:title="친구 목록" />
 
     <item
         android:id="@+id/menu_meeting"
-        android:icon="@drawable/download"
+        android:icon="@drawable/promise"
         android:title="진행중인 약속" />
 
     <item
         android:id="@+id/menu_info"
-        android:icon="@drawable/download"
+        android:icon="@drawable/info"
         android:title="내 정보" />
 
 </menu>
