@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="이름"
+            android:text="아이디"
             android:layout_weight="1" />
 
         <EditText
@@ -24,7 +24,6 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Name"
             android:layout_weight="1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="친구 ID"
+            android:text="이메일"
             app:layout_constraintEnd_toStartOf="@+id/find_friend_id"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="243dp" />
@@ -52,7 +51,6 @@
             android:ems="10"
             android:layout_weight="1"
             android:minHeight="48dp"
-            android:text="ID"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="233dp" />
