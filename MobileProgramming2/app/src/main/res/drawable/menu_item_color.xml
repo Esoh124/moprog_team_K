@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">/** 메인 화면 아래 메뉴 목록 색깔 누를 때 안 누를때 **/
-    <item android:state_checked="true" android:color="#000000"/>
-    <item android:state_checked="false" android:color="#A6A6A6"/>
-</selector>
