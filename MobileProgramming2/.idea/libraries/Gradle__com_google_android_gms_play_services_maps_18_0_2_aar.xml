@@ -1,12 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-maps:18.0.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9dac9b207faf2dd6864c5add86b48b70/transformed/jetified-play-services-maps-18.0.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9dac9b207faf2dd6864c5add86b48b70/transformed/jetified-play-services-maps-18.0.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9dac9b207faf2dd6864c5add86b48b70/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d955030d84b7c443b248f8bd2be49060/transformed/jetified-play-services-maps-18.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d955030d84b7c443b248f8bd2be49060/transformed/jetified-play-services-maps-18.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d955030d84b7c443b248f8bd2be49060/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/d955030d84b7c443b248f8bd2be49060/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/d955030d84b7c443b248f8bd2be49060/transformed/jetified-play-services-maps-18.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/d955030d84b7c443b248f8bd2be49060/transformed/jetified-play-services-maps-18.0.2/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-maps/18.0.2/b21c7a3eb0f99d941e7d6a1f7ec27846c3b74ae/play-services-maps-18.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/modules-2/files-2.1/com.google.android.gms/play-services-maps/18.0.2/b21c7a3eb0f99d941e7d6a1f7ec27846c3b74ae/play-services-maps-18.0.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--메인 지도 bar가 true라면 뜨는 frame 입니다. 사용자의 지도가 뜨고 사용자가 갔던 약속들의 사진들이 모두 띄워져
-있어야 합니다. 마커 설정은 위도 경도로 가능하여 보이니 사진을 위도 경도에 맞게 띄우면 되지 않을까..? 생각합니다.
-친구의 색깔을 정하여 누구와 갔는지 지도만 봐도 알수 있게금 사진의 테두리를 친구마다 색깔을 다르게 하면 좋을 것 같습
-니다.-->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".map_fragment">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Login">
 
-    <fragment
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지난 약속"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/map"
-        tools:context=".MapsActivity"
-        android:name="com.google.android.gms.maps.SupportMapFragment" />
+        android:orientation="vertical">
 
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapsActivity" />
+    </LinearLayout>
 
-</FrameLayout>
+</LinearLayout>

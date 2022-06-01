@@ -1,12 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-basement:18.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3750a3a0b81204ef8c8b302ccbbf8423/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3750a3a0b81204ef8c8b302ccbbf8423/transformed/jetified-play-services-basement-18.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3750a3a0b81204ef8c8b302ccbbf8423/transformed/jetified-play-services-basement-18.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d5942e85b69cde50f3d963f389eb18ed/transformed/jetified-play-services-basement-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d5942e85b69cde50f3d963f389eb18ed/transformed/jetified-play-services-basement-18.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d5942e85b69cde50f3d963f389eb18ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/d5942e85b69cde50f3d963f389eb18ed/transformed/jetified-play-services-basement-18.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/d5942e85b69cde50f3d963f389eb18ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/d5942e85b69cde50f3d963f389eb18ed/transformed/jetified-play-services-basement-18.0.0/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/18.0.0/36bdff1deaba5efcc76d7e68ea06b3c50af7bc0/play-services-basement-18.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/18.0.0/36bdff1deaba5efcc76d7e68ea06b3c50af7bc0/play-services-basement-18.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

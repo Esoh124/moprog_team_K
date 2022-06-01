@@ -19,7 +19,7 @@
     <item
         android:id="@+id/menu_meeting"
         android:icon="@drawable/promise"
-        android:title="진행중인 약속" />
+        android:title="예정 약속" />
 
     <item
         android:id="@+id/menu_info"

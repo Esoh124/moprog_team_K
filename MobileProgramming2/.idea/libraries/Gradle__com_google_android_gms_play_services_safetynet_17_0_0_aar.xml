@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2d941a55a0c02c2858bea22b8b8cce6a/transformed/jetified-play-services-safetynet-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2d941a55a0c02c2858bea22b8b8cce6a/transformed/jetified-play-services-safetynet-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2d941a55a0c02c2858bea22b8b8cce6a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/2d941a55a0c02c2858bea22b8b8cce6a/transformed/jetified-play-services-safetynet-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/2d941a55a0c02c2858bea22b8b8cce6a/transformed/jetified-play-services-safetynet-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/2d941a55a0c02c2858bea22b8b8cce6a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

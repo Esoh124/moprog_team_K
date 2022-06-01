@@ -3,39 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/drawable/menu_item_color.xml" value="0.2985" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/activity_bydate.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/activity_frinedslist.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/activity_newpromise.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_date_fragment.xml" value="0.22" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_friend_fragment.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_map_fragment.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_meeting.xml" value="0.17806484295845998" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_overallmap.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_promise2_fragment.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_promise_fragment.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MobileProgramming2/app/src/main/res/menu/main_menu_bottom.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1635" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/drawable/menu_item_color.xml" value="0.1635" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/activity_friend_add.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/activity_graphics202035362_leesohyun.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/activity_login.xml" value="0.23376623376623376" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_date_fragment.xml" value="0.18541666666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_friend_fragment.xml" value="0.11684782608695653" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_info.xml" value="0.18541666666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_info_fragment.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_map_fragment.xml" value="0.18541666666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_meeting.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_promise2_fragment.xml" value="0.18541666666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/layout/fragment_promise_fragment.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/moprog/MobileProgramming2/app/src/main/res/menu/main_menu_bottom.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/drawable/menu_item_color.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/activity_camera.xml" value="0.327445652173913" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/fragment_first.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/fragment_friend_fragment.xml" value="0.271286231884058" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/fragment_map_fragment.xml" value="0.327445652173913" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/fragment_promise_fragment.xml" value="0.5" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/fragment_promise_progress.xml" value="0.33152173913043476" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/fragment_second.xml" value="0.327445652173913" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/listview_friendlist.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/listview_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/listview_promise_progress.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/promise_list_layout.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/promise_map_fragment.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/layout/view_custom_marker.xml" value="0.271286231884058" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2 (3)/app/src/main/res/menu/main_menu_bottom.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_promise_fragment.xml" value="0.2817028985507246" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/fragment_promise_progress.xml" value="0.2817028985507246" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/MobileProgramming2/app/src/main/res/layout/listview_promise_progress.xml" value="0.2817028985507246" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

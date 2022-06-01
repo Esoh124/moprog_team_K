@@ -21,16 +21,16 @@ bar를 선택하기전에는 메인 지도 bar가 true로 설정되어야 합니
         app:layout_constraintTop_toTopOf="parent" />
 
 
-      <com.google.android.material.bottomnavigation.BottomNavigationView
-          android:id="@+id/menu_bottom_navigation"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_gravity="bottom"
-          app:itemIconTint="@drawable/menu_item_color"
-          app:itemTextColor="@drawable/menu_item_color"
-          app:labelVisibilityMode="labeled"
-          app:layout_constraintBottom_toBottomOf="parent"
-          app:menu="@menu/main_menu_bottom"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:itemIconTint="@drawable/menu_item_color"
+        app:itemTextColor="@drawable/menu_item_color"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/main_menu_bottom"/>
 
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

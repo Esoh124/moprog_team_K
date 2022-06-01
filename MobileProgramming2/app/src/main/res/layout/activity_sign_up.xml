@@ -22,9 +22,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="70px"
-            android:text="NAME"/>
+            android:text="Name"/>
         <EditText
-            android:layout_width="500px"
+            android:id="@+id/etRealName"
+            android:layout_width="600px"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
@@ -38,7 +39,29 @@
             android:textSize="70px"
             android:text="ID"/>
         <EditText
-            android:layout_width="500px"
+            android:id="@+id/etName"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/duplicateId"
+            android:text="중복확인"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:text="Mail"/>
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="600px"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
@@ -52,13 +75,27 @@
             android:textSize="70px"
             android:text="PW"/>
         <EditText
-            android:layout_width="500px"
+            android:id="@+id/etPw"
+            android:layout_width="600px"
             android:layout_height="wrap_content"/>
     </LinearLayout>
-    <Button
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="계정 생성"
-        android:layout_gravity="center"
-        android:id="@+id/accountBtn"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/accountBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="계정 생성"/>
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:backgroundTint="@color/black"
+            android:text="뒤로가기"/>
+    </LinearLayout>
 </LinearLayout>

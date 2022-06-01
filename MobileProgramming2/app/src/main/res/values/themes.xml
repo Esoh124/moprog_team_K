@@ -15,4 +15,13 @@
         <item name="windowNoTitle">true</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.MobileProgramming.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MobileProgramming.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MobileProgramming.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

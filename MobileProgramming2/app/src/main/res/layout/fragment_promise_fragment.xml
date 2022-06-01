@@ -2,6 +2,7 @@
 <!--약속 담기를 누르면 뜨는 frame입니다. 약속 날짜와 친구를 설정하고 위치를 설정해야합니다.-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollV"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".promise_fragment">
@@ -17,88 +18,137 @@
             android:layout_height="wrap_content"
             android:text="약속 날짜"
             tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="20dp" />
-
+            tools:layout_editor_absoluteY="20dp"
+            android:textSize="23dp"
+            android:layout_marginLeft="5dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="월/일"></TextView>
+                android:text="약속이름"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"></TextView>
+
             <EditText
-                android:id="@+id/editTextDate"
-                android:layout_width="wrap_content"
+                android:id="@+id/textName"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="date"
                 tools:layout_editor_absoluteX="29dp"
                 tools:layout_editor_absoluteY="68dp"
-                android:autofillHints="10/3" />
+                android:textSize="15dp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="시간"></TextView>
-            <EditText
-                android:id="@+id/editTextTime2"
+                android:text="   날짜    "
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/textDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="date"
-                android:autofillHints="02:05" />
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="68dp"
+                android:textSize="15dp"
+                android:hint="YYYY/MM/DD"/>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   시간    "
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"></TextView>
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:hint="hh:mm" />
+        </LinearLayout>
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="친구" />
+            android:text="친구"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
 
-        <!--친구 checkbox로 고르는 구간 친구 목록 data를 불러와 연결시켜줘야함.-->
-        <FrameLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="1000px">
-            <ScrollView
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:id="@+id/invisibleCheckbox"
+                android:focusable="false"
+                android:clickable="false"/>
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <CheckBox
-                        android:id="@+id/friend1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="철수"/>
-                </LinearLayout>
-            </ScrollView>
-        </FrameLayout>
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ID"
+                android:textSize="16dp"/>
+        </LinearLayout>
+        <!--친구 checkbox로 고르는 구간 친구 목록 data를 불러와 연결시켜줘야함.-->
+        <ListView
+            android:id="@+id/friendList"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:choiceMode="multipleChoice" />
 
         <!--약속 위치를 정하는 frame 마커를 사용자가 둘수 있게 설정-->
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="위치" />
+            android:orientation="horizontal">
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="1000px"
-            android:id="@+id/p_map"
-            android:name="com.google.android.gms.maps.SupportMapFragment">
-        </FrameLayout>
-        <Button
-            android:id="@+id/appointment"
-            android:layout_width="77dp"
-            android:layout_height="45dp"
-            android:text="NEXT"
-            tools:layout_editor_absoluteX="318dp"
-            tools:layout_editor_absoluteY="16dp"
-            android:layout_marginBottom="200px"/>
+            <Button
+                android:id="@+id/appointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="현재 표시된 위치로 약속 담기"
+                android:textSize="15dp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/s_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="296dp" />
+            </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

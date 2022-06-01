@@ -1,12 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/88a701e62390f47932520816266fd7ec/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/88a701e62390f47932520816266fd7ec/transformed/jetified-play-services-base-18.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/88a701e62390f47932520816266fd7ec/transformed/jetified-play-services-base-18.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ad1dfb0391a78ddf3dd30a08c85daeb4/transformed/jetified-play-services-base-18.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad1dfb0391a78ddf3dd30a08c85daeb4/transformed/jetified-play-services-base-18.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad1dfb0391a78ddf3dd30a08c85daeb4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/ad1dfb0391a78ddf3dd30a08c85daeb4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/ad1dfb0391a78ddf3dd30a08c85daeb4/transformed/jetified-play-services-base-18.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/transforms-3/ad1dfb0391a78ddf3dd30a08c85daeb4/transformed/jetified-play-services-base-18.0.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-base/18.0.1/5c3b2e3ce7819eeff73b937ae37741ad2bd88172/play-services-base-18.0.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../android-sdk/Pixel_2_API_30.avd/caches/modules-2/files-2.1/com.google.android.gms/play-services-base/18.0.1/5c3b2e3ce7819eeff73b937ae37741ad2bd88172/play-services-base-18.0.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>
